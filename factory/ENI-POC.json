@@ -1,0 +1,9 @@
+{
+	"name": "ENI-POC",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "10776973-7957-4fec-87c3-c071fe935e55",
+		"tenantId": "d52c9ea1-7c21-47b1-82a3-33a74b1f74b8"
+	}
+}
