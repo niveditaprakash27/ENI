@@ -1,0 +1,12 @@
+{
+	"name": "integrationRuntime2",
+	"properties": {
+		"type": "SelfHosted",
+		"typeProperties": {
+			"linkedInfo": {
+				"resourceId": "/subscriptions/7a7857a5-dd08-4358-9af0-daa9dfccc267/resourcegroups/PocFileSystem/providers/Microsoft.DataFactory/factories/PocFileSystem/integrationruntimes/integrationRuntime1",
+				"authorizationType": "Rbac"
+			}
+		}
+	}
+}
