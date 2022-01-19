@@ -1,0 +1,31 @@
+{
+	"name": "WebforREST",
+	"properties": {
+		"activities": [
+			{
+				"name": "Web1",
+				"type": "WebActivity",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "7.00:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"url": "https://publicisgroupe.sharepoint.com/:f:/r/sites/eniaccount-GasPortfolio/Shared%20Documents/Gas%20Portfolio/Data%20Model/Data%20Model%20Mapping?csf=1&web=1&e=dMdPLr",
+					"method": "POST",
+					"linkedServices": [
+						{
+							"referenceName": "AzureDataLakeStorage1",
+							"type": "LinkedServiceReference"
+						}
+					]
+				}
+			}
+		],
+		"annotations": []
+	}
+}
