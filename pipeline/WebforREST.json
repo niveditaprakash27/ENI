@@ -22,6 +22,12 @@
 							"referenceName": "AzureDataLakeStorage1",
 							"type": "LinkedServiceReference"
 						}
+					],
+					"datasets": [
+						{
+							"referenceName": "DelimitedText4",
+							"type": "DatasetReference"
+						}
 					]
 				}
 			}
