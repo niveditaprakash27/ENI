@@ -1,0 +1,32 @@
+{
+	"name": "pipeline1",
+	"properties": {
+		"activities": [
+			{
+				"name": "WebHook1",
+				"type": "WebHook",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"url": "https://eni-poc.azurewebsites.net/api/HttpTrigger1?code=OnKL8DraC2teneclTZ1OuM27yUFZBBrWGC3SRFhcfZVmArUoo3SrBQ==",
+					"method": "POST",
+					"body": {
+						"value": [
+							{
+								"subscriptionId": "1111111111-3ef7-4917-ada1-xxxxxxxxxxxxx",
+								"clientState": null,
+								"expirationDateTime": "2020-06-14T16:22:51.2160000Z",
+								"resource": "xxxxxx-c0ba-4063-a078-xxxxxxxxx",
+								"tenantId": "4e2a1952-1ed1-4da3-85a6-xxxxxxxxxx",
+								"siteUrl": "/sites/webhooktest",
+								"webId": "xxxxx-3a7c-417b-964e-39f421c55d59"
+							}
+						]
+					},
+					"timeout": "00:10:00"
+				}
+			}
+		],
+		"annotations": []
+	}
+}
